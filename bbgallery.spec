@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Source0:	ftp://ftp.bb-zone.com/pub/bbgallery/%{name}-%{version}.tar.bz2
+# Source0-md5:	783536b3b01b19b578ac96ea923214a8
 Patch0:		%{name}-etc_dir.patch
 URL:		http://www.bb-zone.com/zope/bbzone/projects/bbgallery/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
