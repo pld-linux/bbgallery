@@ -1,0 +1,21 @@
+diff -Nru bbgallery-1.1.0/mkgallery.pl bbgallery-1.1.0.new/mkgallery.pl
+--- bbgallery-1.1.0/mkgallery.pl	Mon Jun 10 00:36:06 2002
++++ bbgallery-1.1.0.new/mkgallery.pl	Sun Mar 23 15:21:01 2003
+@@ -590,9 +590,14 @@
+     my %c;
+ 
+     # check for global config file
+-    if ( -f "$ENV{HOME}/.bbgallery" ) {
+-	load_config (  \%P, "$ENV{HOME}/.bbgallery" );
+-    }
++	if ("$ENV{ETC_DIR}") {
++        if ( -f "$ENV{ETC_DIR}/bbgallery" ) {
++	    load_config (  \%P, "$ENV{ETC_DIR}/bbgallery" );
++        }
++    } else {
++        if ( -f "$ENV{HOME}/.bbgallery" ) {
++	    load_config (  \%P, "$ENV{HOME}/.bbgallery" );
++        }
+ 
+     # config file in CWD?
+     if ( -f ".bbgallery" ) {
