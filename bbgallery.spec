@@ -33,9 +33,9 @@ Requires Perl, Gimp and Perl-Gimp.
 
 %description -l pl
 BBGallery to ma³y skrypt Perla tworz±cy pliki HTML z obrazków JPEG,
-które tworz± galeriê do przegl±dania dowoln± przegl±dark± HTML. Skrypt
-u¿ywa programu Gimp i modu³ów Gimp-Perl do tworzenia miniaturek oraz
-skalowania obrazków. Oferuje nastêpuj±ce mo¿liwo¶ci:
+które tworz± galeriê do przegl±dania dowoln± przegl±dark± HTML-a.
+Skrypt u¿ywa programu Gimp i modu³ów Gimp-Perl do tworzenia miniaturek
+oraz skalowania obrazków. Oferuje nastêpuj±ce mo¿liwo¶ci:
  - tworzenie miniaturek (rozmiar jest konfigurowalny)
  - skalowanie obrazków do konfigurowalnego rozmiaru (opcjonalne)
  - odno¶niki do obrazków w pe³nym rozmiarze
