@@ -6,7 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Source0:	ftp://ftp.bb-zone.com/pub/bbgallery/%{name}-%{version}.tar.bz2
-Patch0:		%{name}-home_etc.patch
+Patch0:		%{name}-etc_dir.patch
 URL:		http://www.bb-zone.com/zope/bbzone/projects/bbgallery/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	bbpic
