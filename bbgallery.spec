@@ -17,7 +17,6 @@ BBGallery is a small Perl script generating a number of HTML files
 from JPEG images that make up a image gallery to browse with any HTML
 browser. It uses The Gimp and Gimp-Perl to create thumbnails and to
 scale the images. It offers the following features:
-
 - Thumbnail creation (size can be configured)
 - Scaling images to a configurable size (optional)
 - Links to full size image
@@ -36,17 +35,17 @@ BBGallery to ma³y skrypt Perla tworz±cy pliki HTML z obrazków JPEG,
 które tworz± galeriê do przegl±dania dowoln± przegl±dark± HTML-a.
 Skrypt u¿ywa programu Gimp i modu³ów Gimp-Perl do tworzenia miniaturek
 oraz skalowania obrazków. Oferuje nastêpuj±ce mo¿liwo¶ci:
- - tworzenie miniaturek (rozmiar jest konfigurowalny)
- - skalowanie obrazków do konfigurowalnego rozmiaru (opcjonalne)
- - odno¶niki do obrazków w pe³nym rozmiarze
- - meta-galerie (galerie galerii)
- - etykiety lub tekst mog± byæ przypisywane do obrazków i/lub galerii
-   przy u¿yciu prostych plików tekstowych
- - ³atwa instalacja i u¿ywanie
- - nie wymaga dodatkowego oprogramowania do przegl±dania galerii i
-   obrazków na dowolnej platformie (idealne do archiwizowania
-   obrazków)
-  - automatyczne przegl±danie slajdów.
+- tworzenie miniaturek (rozmiar jest konfigurowalny)
+- skalowanie obrazków do konfigurowalnego rozmiaru (opcjonalne)
+- odno¶niki do obrazków w pe³nym rozmiarze
+- meta-galerie (galerie galerii)
+- etykiety lub tekst mog± byæ przypisywane do obrazków i/lub galerii
+  przy u¿yciu prostych plików tekstowych
+- ³atwa instalacja i u¿ywanie
+- nie wymaga dodatkowego oprogramowania do przegl±dania galerii i
+ obrazków na dowolnej platformie (idealne do archiwizowania
+  obrazków)
+ - automatyczne przegl±danie slajdów.
 
 %prep
 %setup -q
