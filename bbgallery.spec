@@ -1,5 +1,5 @@
 Summary:	HTML Gallery Creator Script
-Summary(pl):	Skrypt do tworzenia galerii w HTML-u
+Summary(pl.UTF-8):   Skrypt do tworzenia galerii w HTML-u
 Name:		bbgallery
 Version:	1.1.0
 Release:	2
@@ -30,22 +30,22 @@ scale the images. It offers the following features:
 
 Requires Perl, Gimp and Perl-Gimp.
 
-%description -l pl
-BBGallery to ma³y skrypt Perla tworz±cy pliki HTML z obrazków JPEG,
-które tworz± galeriê do przegl±dania dowoln± przegl±dark± HTML-a.
-Skrypt u¿ywa programu Gimp i modu³ów Gimp-Perl do tworzenia miniaturek
-oraz skalowania obrazków. Oferuje nastêpuj±ce mo¿liwo¶ci:
+%description -l pl.UTF-8
+BBGallery to maÅ‚y skrypt Perla tworzÄ…cy pliki HTML z obrazkÃ³w JPEG,
+ktÃ³re tworzÄ… galeriÄ™ do przeglÄ…dania dowolnÄ… przeglÄ…darkÄ… HTML-a.
+Skrypt uÅ¼ywa programu Gimp i moduÅ‚Ã³w Gimp-Perl do tworzenia miniaturek
+oraz skalowania obrazkÃ³w. Oferuje nastÄ™pujÄ…ce moÅ¼liwoÅ›ci:
 - tworzenie miniaturek (rozmiar jest konfigurowalny)
-- skalowanie obrazków do konfigurowalnego rozmiaru (opcjonalne)
-- odno¶niki do obrazków w pe³nym rozmiarze
+- skalowanie obrazkÃ³w do konfigurowalnego rozmiaru (opcjonalne)
+- odnoÅ›niki do obrazkÃ³w w peÅ‚nym rozmiarze
 - meta-galerie (galerie galerii)
-- etykiety lub tekst mog± byæ przypisywane do obrazków i/lub galerii
-  przy u¿yciu prostych plików tekstowych
-- ³atwa instalacja i u¿ywanie
-- nie wymaga dodatkowego oprogramowania do przegl±dania galerii i
- obrazków na dowolnej platformie (idealne do archiwizowania
-  obrazków)
- - automatyczne przegl±danie slajdów.
+- etykiety lub tekst mogÄ… byÄ‡ przypisywane do obrazkÃ³w i/lub galerii
+  przy uÅ¼yciu prostych plikÃ³w tekstowych
+- Å‚atwa instalacja i uÅ¼ywanie
+- nie wymaga dodatkowego oprogramowania do przeglÄ…dania galerii i
+ obrazkÃ³w na dowolnej platformie (idealne do archiwizowania
+  obrazkÃ³w)
+ - automatyczne przeglÄ…danie slajdÃ³w.
 
 %prep
 %setup -q
