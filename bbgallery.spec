@@ -1,5 +1,5 @@
 Summary:	HTML Gallery Creator Script
-Summary(pl.UTF-8):   Skrypt do tworzenia galerii w HTML-u
+Summary(pl.UTF-8):	Skrypt do tworzenia galerii w HTML-u
 Name:		bbgallery
 Version:	1.1.0
 Release:	2
